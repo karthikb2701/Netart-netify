@@ -78,31 +78,32 @@ vr{
   height: 10px;
   padding-right: 2px;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
   .upper-row{
     display: flex;
     flex-direction: column;
     margin: auto;
   }
   .content1{
-    width: 300px;
+    width: 250px;
     height: 400px;
     margin: auto;
    }
 
   .content2 {
-    width: 450px;
+    width: 400px;
     height: 300px;
     margin: auto;
 
   }
   .content3{
-    width: 450px;
+    width: 400px;
     margin: auto;
   }
   .second-mid{
-    margin-top: 400px;
-    width: 450px;
+    margin-top: 450px;
+    width: 400px;
+    padding-left: 40px;
     
   }
 };
